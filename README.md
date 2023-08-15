@@ -13,7 +13,7 @@ This Ansible role enables Objects on Prism Central.
 | nutanix_port                                      | no       | 9440    |                           | The Prism TCP port                                                                                     |
 | validate_certs                                    | no       | no      | yes / no                  | Whether to check if Prism UI certificates are valid.                                                   |
 | nutanix_debug                                     | no       | no      | yes / no                  | Whether to output variable contents for debugging purposes.                                            |
-| nutanix_objects_enable                               | yes      |         | yes / no                  | Set value to 'yes' to enable Calm.                                                                     |
+| nutanix_objects_enable                            | yes      |         | yes / no                  | Set value to 'yes' to enable Objects.                                                                  |
 
 
 ## Dependencies
